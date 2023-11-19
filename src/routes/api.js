@@ -5,7 +5,9 @@ const appController = require("../controllers/appController");
 
 
 
-router.get(apiEndPoint.Home, appController.home)
+
+router.get(apiEndPoint.Home, appController.home);
+router.post(apiEndPoint.Signin, appController.signin);
 
 
 

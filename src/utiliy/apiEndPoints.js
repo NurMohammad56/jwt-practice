@@ -1,6 +1,7 @@
 const apiEndPoint ={
     Home: "/",
-    About: "/About"
+    About: "/About",
+    Signin:"/signin"
 }
 
 module.exports = apiEndPoint;
