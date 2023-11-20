@@ -26,7 +26,8 @@ const signin = (req, res)=>{
         const payload ={
             name:"Konok",
             email: "nurmohammad0605@gmail.com",
-            roll: "10"
+            roll: "10",
+            exp: Math.floor(Date.now() / 1000)+ 60
         };
 
         const token = jwtToken.sign(payload, "secretKey123");
